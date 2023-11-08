@@ -1,0 +1,349 @@
+.body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
+@media only screen and (max-width: 480px) {
+  .body{
+    width: 400px;
+  }
+  
+}
+
+@media only screen and (max-width: 850px) {
+  .body{
+    max-width: 700px;
+  }
+  
+}
+
+/*--------------------navbar-section----------------*/
+.nav-link, a{
+  color: black;
+}
+.nav-link{
+  font-size: 15px;
+  margin-right: 73px;
+  white-space: nowrap;
+
+}
+@media only screen and (max-width: 480px) {
+  .call-us{
+    font-size: 10px;
+  }
+}
+
+.navbar-brand {
+  font-weight: bold;
+  margin-right: 5rem;
+}
+
+.bg_dark {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.primary-navbar {
+  z-index: 100px;
+  background-color: black;
+ 
+}
+#bar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;;
+}
+
+.cart {
+  padding-top: 8px;
+  white-space: nowrap;
+}
+
+.col-12 {
+  margin-left: 2.4rem;
+  border-style: none;
+  max-width: fit-content;
+  
+}
+
+.card {
+  border-style: none;
+  margin-top: 40px;
+
+}
+
+.card-body{
+  padding: 0;
+  padding-top: 8px;
+}
+.row {
+  margin-left: 0px;
+
+}
+
+
+.photo {
+max-width: fit-content;
+  
+}
+@media screen and (max-width: 480px) {
+
+  .photo {
+    min-width: 358px;
+    object-position: center;
+    height: 500px;
+  }
+  .row {
+    overflow-y: hidden;
+    margin-right: 25px;
+  }
+  .col-12 {
+    margin-left: 17px;
+  }
+
+
+}
+
+.text {
+  text-align: center;
+  margin-top: 50px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.products {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  
+}
+.owl-nav {
+  position: absolute;
+  top: -77px;
+  right: 120px;
+  padding-left: 400px;
+  margin-bottom: 10px;
+}
+.slider {
+  z-index: -100;
+}
+
+h4{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+button span{
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: solid;
+  padding-bottom: 4px;
+}
+.t-shirt-one{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.t-shirt-two{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.t-shirt-three{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.t-shirt-four{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.t-shirt-five{
+  margin-top: 10px;
+  text-align: center;
+}
+.country{
+  color: rgb(160, 160, 160);
+}
+.price {
+  text-decoration: line-through;
+}
+
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+
+@media screen and (max-width: 480px){
+  .row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+
+}
+
+
+/*---------------------------------fifth-section-------------*/
+
+#fift-section{
+  margin-right:  10px;
+ padding: 0;
+  
+}
+.container5{
+  padding: 0;
+
+}
+.section-five {
+  margin-left: 12px;
+padding: 0;
+}
+.imag {
+  width: 447.05px;
+  height: 400px;
+}
+/*---------------------sixth-section------------*/
+#section6  {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.image2 {
+  margin: 10px;
+  width: 356.46px;
+}
+.image5 {
+  object-position: top;
+  width: 356.46px;
+  margin: 10px;
+  margin-top: 96px;
+  height: 277px;
+
+}
+.text2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.paragraph3{
+  margin-top: 90px;
+  text-align: center;
+  width: 356.46px;
+
+}
+.section-six {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+.shop-now{
+ background-color: black;
+ color: white;
+ margin-top: 20px;
+}
+
+/*-------------------------------pop-up-section-------------*/
+/* Style the popup container */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  overflow: auto;
+  z-index: 100;
+
+}
+
+/* Style the popup content */
+.popup-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  width: 90%;
+  border-style:  none;
+  overflow-x: hidden;
+}
+
+/* Style the close button */
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  cursor:pointer;
+}
+button{
+  border-style: none;
+
+}
+
+/*-------------------------pop-up-page-----------*/
+#first-section {
+margin-left: 50px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+/*------------------pop-up-media-querry-------*/
+@media only screen and (max-width: 480px) {
+  .popup-content {
+    width: 400px;
+    margin-left: 0;
+  }
+}
+
+/*----------------footer-------*/
+footer {
+  background-color: rgba(188, 188, 188, 0.69);
+  margin-top: 2rem;
+  padding-right: 118px;
+  padding-left: 70px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.columncontent ul li{
+  list-style: none;
+  padding-bottom: 5px;
+  margin-right: 100px;
+  }
+ul {
+  padding: 0;
+}
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  
+}
+
+
+
+
+

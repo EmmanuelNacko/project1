@@ -1,0 +1,179 @@
+.body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.nav-link, a{
+  color: black;
+}
+@media only screen and (max-width: 480px) {
+  .call-us{
+    font-size: 11px;
+  }
+  
+}
+.nav-link{
+  font-size: 15px;
+  margin-right: 73px;
+  white-space: nowrap;
+
+}
+
+.navbar-brand {
+  font-weight: bold;
+  margin-right: 5rem;
+}
+
+.bg_dark {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.primary-navbar {
+  background-color: black;
+ 
+}
+#bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.cart {
+  padding-top: 8px;
+  white-space: nowrap;
+}
+#bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+p{
+  margin: 0;
+}
+/*--------------------------side-bar----------------*/
+.clickes {
+  margin-right: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  background-color: black;
+}
+.click{
+  margin-right: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: rgb(179, 179, 179);
+  border-style: none;
+
+}
+.second-page{
+
+  display: flex;
+  gap: 40px;
+}
+.middle-page {
+  margin-top: 50px;
+
+}
+#dropdown {
+  width: 300px;
+  height: 30px;
+}
+#dropdown2 {
+  height: 30px;
+}
+.second-dropdown {
+margin-left: 100px;
+}
+
+h2 {
+  padding-left: 160px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+
+.middle-page-bar{
+  box-shadow: 5px 5px 25px rgba(1, 4, 0, 0.29);
+  padding: 5px;
+  border-width: 1px;
+  border-color: rgb(197, 197, 197);
+  border-style: solid;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.side-bar {
+  margin-left: 100px;
+  width: 300px;
+  top: 150px;
+  left: 100px;
+}
+.sidebar-text{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.collection,h4, ul{
+  
+  margin: 20px;
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+.sidebar-photo {
+  margin-top: 30px;
+}
+/*-------------------photo-section------------*/
+.photo{
+  width: 250px;
+  height: 300px;
+}
+
+#photo-section {
+  margin-left: 25px;
+  margin-top: 8px;
+}
+.text {
+  text-align: center;
+  margin-top: 10px;
+}
+/*---------------------footer-------------------*/
+footer {
+  background-color: rgba(188, 188, 188, 0.69);
+  margin-top: 2rem;
+  padding-right: 118px;
+  padding-left: 70px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.columncontent ul li{
+  list-style: none;
+  padding-bottom: 5px;
+  margin-right: 100px;
+  }
+ul {
+  padding: 0;
+}
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  
+}
+
